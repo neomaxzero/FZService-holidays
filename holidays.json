@@ -1,0 +1,77 @@
+{
+  "year": 2017,
+  "dates": [
+    {
+      "name": "Año nuevo",
+      "date": "0101"
+    },
+    {
+      "name": "Carnaval",
+      "date": "2702"
+    },
+    {
+      "name": "Carnaval",
+      "date": "2802"
+    },
+    {
+      "name": "Dia Nacional de la memoria por la Verdad y la Justicia",
+      "date": "2403"
+    },
+    {
+      "name": "Dia del veterano y de los caidos en la guerra de malvinas",
+      "date": "0204"
+    },
+    {
+      "name": "Jueves Santo",
+      "date": "1304"
+    },
+    {
+      "name": "Viernes Santo",
+      "date": "1404"
+    },
+    {
+      "name": "Dia del trabajador",
+      "date": "0105"
+    },
+    {
+      "name": "Dia de la Revolucion de Mayo",
+      "date": "2505"
+    },
+    {
+      "name": "Día Paso a la Inmortalidad del General Martín Miguel de Güemes",
+      "date": "1706"
+    },
+    {
+      "name": "Feriado puente turístico",
+      "date": "1906"
+    },
+    {
+      "name": "Día Paso a la Inmortalidad del General Manuel Belgrano",
+      "date": "2006"
+    },
+    {
+      "name": "Día de la Independencia.",
+      "date": "0907"
+    },
+    {
+      "name": "Paso a la Inmortalidad del General José de San Martín",
+      "date": "1408"
+    },
+    {
+      "name": "Día del Respeto a la Diversidad Cultural.",
+      "date": "0910"
+    },
+    {
+      "name": "Día de la Soberanía Nacional.",
+      "date": "2711"
+    },
+    {
+      "name": "Inmaculada Concepción de María.",
+      "date": "0812"
+    },
+    {
+      "name": "Navidad.",
+      "date": "2512"
+    }
+  ]
+}

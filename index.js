@@ -1,11 +1,28 @@
-const micro  = require('micro');
+const fs = require('fs');
+const { json, send }  = require('micro');
+const util = require('util');
 
-function serverListener(req, res) {
-  res.writeHead(200);
-  res.end('Hello');
 
+function readDB(db) {
+  return new Promise((resolve,reject) =>{
+    fs.readFile(db,
+      'utf-8',
+      (err, data) =>{
+      if (err)
+        reject(err);
+
+      resolve(JSON.parse(data));
+    });
+  }
+  );
 };
 
-const microSrv = micro(serverListener);
+let dbFiles;
 
-module.exports = microSrv.listen(4000);
+readDB('./holidays.json')
+  .then((data) => dbFiles = data)
+  .catch((err) => console.error(err))
+
+module.exports = function(req, res) {
+    send(res, 200, dbFiles);
+}
