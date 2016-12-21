@@ -24,5 +24,6 @@ readDB('./holidays.json')
   .catch((err) => console.error(err))
 
 module.exports = function(req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     send(res, 200, dbFiles);
 }
